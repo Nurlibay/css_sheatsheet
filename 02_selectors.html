@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Selectors</title>
+    <style>
+      body {
+        background-color: #888;
+      }
+      #box-1 {
+        background-color: #f4f4f4;
+        border: 1px solid #444;
+      }
+      .sub-heading {
+        color: red;
+      }
+      #box-1 p {
+        color: blue;
+      }
+      #box-2 p {
+        color: brown;
+      }
+      #box-2 > h3 {
+        color: violet;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box-1">
+      <h3 class="sub-heading">Box one</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing 
+        elit. Delectus, ullam. Id rem enim, ea similique 
+        suscipit eligendi odio blanditiis quaerat!</p>
+    </div>
+    <div id="box-2">
+      <h3>Box two</h3>
+      <div>
+        <h3>Sub heading box two</h3>
+      </div>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Dicta nemo doloribus eos quis quas praesentium iure tempore 
+        perspiciatis suscipit saepe.</p>
+    </div>
+  </body>
+</html>
